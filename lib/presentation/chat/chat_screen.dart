@@ -26,6 +26,7 @@ class _ChatView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
+      left: false,
       child: Column(children: [
         Expanded(
             child: Container(
